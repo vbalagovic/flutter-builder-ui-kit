@@ -28,6 +28,7 @@ import 'package:flutter_builder_ui/flutter_builder_ui.dart';
 ```
 
 ### Buttons examples
+<img width="768" alt="Screenshot 2024-11-11 at 23 32 09" src="https://github.com/user-attachments/assets/10856011-0c03-4d55-98cf-4a3b83f17e46">
 
 ```dart
 import 'package:flutter_builder_ui/flutter_builder_ui.dart';
@@ -41,6 +42,7 @@ BouncingIconButton(
 ```
 
 ### Inputs examples
+<img width="619" alt="Screenshot 2024-11-11 at 23 32 44" src="https://github.com/user-attachments/assets/805bc4d1-36d3-4261-9e5e-92525f587415">
 
 ```dart
 import 'package:flutter_builder_ui/flutter_builder_ui.dart';
@@ -55,6 +57,7 @@ PinInput(
 ```
 
 ### Cards examples
+<img width="802" alt="Screenshot 2024-11-11 at 23 33 00" src="https://github.com/user-attachments/assets/cef8dc7c-efdb-4c49-a63f-501729e8d098">
 
 ```dart
 import 'package:flutter_builder_ui/flutter_builder_ui.dart';
@@ -69,6 +72,7 @@ StatusCard(
 ```
 
 ### List Tiles examples
+<img width="772" alt="Screenshot 2024-11-11 at 23 33 17" src="https://github.com/user-attachments/assets/2ca1ccda-f409-4b62-83fd-1fa2ccb44051">
 
 ```dart
 import 'package:flutter_builder_ui/flutter_builder_ui.dart';
@@ -82,6 +86,7 @@ AnimatedListTile(
 ```
 
 ### Overlays examples
+<img width="839" alt="Screenshot 2024-11-11 at 23 33 39" src="https://github.com/user-attachments/assets/16896f44-2c6b-4f82-80fe-534ea0997f4e">
 
 ```dart
 import 'package:flutter_builder_ui/flutter_builder_ui.dart';
@@ -173,6 +178,7 @@ ElevatedButton(
 ```
 
 ### Bottom bars examples
+<img width="770" alt="Screenshot 2024-11-11 at 23 33 56" src="https://github.com/user-attachments/assets/b60c3d78-c9ac-49b8-a7c6-697fb2a25f73">
 
 ```dart
 import 'package:flutter_builder_ui/flutter_builder_ui.dart';
