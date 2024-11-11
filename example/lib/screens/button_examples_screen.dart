@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_builder_ui/flutter_builder_ui.dart';
+import 'package:flutter_builder_ui_kit/flutter_builder_ui_kit.dart';
 
 class ButtonExamplesScreen extends StatelessWidget {
   const ButtonExamplesScreen({super.key});

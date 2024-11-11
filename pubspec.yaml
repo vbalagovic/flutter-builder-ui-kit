@@ -1,7 +1,7 @@
-name: flutter_builder_ui
-description: "A new Flutter package project."
-version: 1.0.0
-homepage: "https://flutter-builder.app/"
+name: flutter_builder_ui_kit
+description: "A flexible and customizable UI widgets package for Flutter applications"
+version: 1.0.1
+homepage: https://github.com/vbalagovic/flutter-builder-ui-kit
 
 environment:
   sdk: ^3.5.3

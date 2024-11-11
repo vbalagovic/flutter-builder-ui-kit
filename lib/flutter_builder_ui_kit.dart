@@ -1,4 +1,4 @@
-library flutter_builder_ui;
+library flutter_builder_ui_kit;
 
 // Exporting buttons
 export 'src/buttons/bouncing_icon_button.dart';

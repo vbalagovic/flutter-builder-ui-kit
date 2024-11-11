@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_builder_ui/flutter_builder_ui.dart';
+import 'package:flutter_builder_ui_kit/flutter_builder_ui_kit.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class BottomBarsExampleScreen extends StatelessWidget {

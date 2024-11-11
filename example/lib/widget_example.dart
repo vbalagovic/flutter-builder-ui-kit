@@ -6,7 +6,8 @@ class WidgetExample extends StatelessWidget {
   final String code;
   final Widget Function(BuildContext) builder;
 
-  const WidgetExample({super.key, 
+  const WidgetExample({
+    super.key,
     required this.name,
     required this.description,
     required this.code,

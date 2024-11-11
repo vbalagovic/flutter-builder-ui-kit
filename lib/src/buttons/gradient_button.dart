@@ -133,7 +133,9 @@ class GradientButton extends StatelessWidget {
                   borderRadius:
                       customBorderRadius ?? BorderRadius.circular(borderRadius),
                   boxShadow: showShadowOnlyOnHover
-                      ? (isHovered == true ? (boxShadow ?? defaultShadow) : null)
+                      ? (isHovered == true
+                          ? (boxShadow ?? defaultShadow)
+                          : null)
                       : (boxShadow ?? defaultShadow),
                   border: border,
                 ),

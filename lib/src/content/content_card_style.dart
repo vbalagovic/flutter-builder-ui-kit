@@ -213,12 +213,10 @@ class ContentCard extends StatelessWidget {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.end,
                     children: [
-                      ...actions!
-                          .map((action) => Padding(
-                                padding: const EdgeInsets.only(left: 8),
-                                child: action,
-                              ))
-                          ,
+                      ...actions!.map((action) => Padding(
+                            padding: const EdgeInsets.only(left: 8),
+                            child: action,
+                          )),
                     ],
                   ),
             ),

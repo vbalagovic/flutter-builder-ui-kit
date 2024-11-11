@@ -2,13 +2,7 @@
 
 import 'package:flutter/material.dart';
 
-enum StatusType {
-  success,
-  error,
-  warning,
-  info,
-  custom
-}
+enum StatusType { success, error, warning, info, custom }
 
 class StatusCardStyle {
   final Map<StatusType, Color> statusColors;
@@ -59,7 +53,7 @@ class StatusCardStyle {
     this.elevation = 0,
     this.showCloseButton = true,
     this.progressBorderRadius,
-  }) : statusColors = statusColors ??
+  })  : statusColors = statusColors ??
             const {
               StatusType.success: Colors.green,
               StatusType.error: Colors.red,
@@ -169,7 +163,8 @@ class _StatusCardState extends State<StatusCard>
   void initState() {
     super.initState();
     _controller = AnimationController(
-      duration: widget.style?.animationDuration ?? const Duration(milliseconds: 300),
+      duration:
+          widget.style?.animationDuration ?? const Duration(milliseconds: 300),
       vsync: this,
     );
 
@@ -207,18 +202,19 @@ class _StatusCardState extends State<StatusCard>
   StatusCardStyle get _effectiveStyle {
     final theme = Theme.of(context);
 
-    return widget.style ?? StatusCardStyle(
-      backgroundColor: widget.backgroundColor ?? theme.cardColor,
-      titleStyle: theme.textTheme.titleMedium,
-      messageStyle: theme.textTheme.bodyMedium,
-      shadows: [
-        BoxShadow(
-          color: theme.shadowColor.withOpacity(0.1),
-          blurRadius: 8,
-          offset: const Offset(0, 2),
-        ),
-      ],
-    );
+    return widget.style ??
+        StatusCardStyle(
+          backgroundColor: widget.backgroundColor ?? theme.cardColor,
+          titleStyle: theme.textTheme.titleMedium,
+          messageStyle: theme.textTheme.bodyMedium,
+          shadows: [
+            BoxShadow(
+              color: theme.shadowColor.withOpacity(0.1),
+              blurRadius: 8,
+              offset: const Offset(0, 2),
+            ),
+          ],
+        );
   }
 
   Color get _statusColor {
@@ -252,7 +248,8 @@ class _StatusCardState extends State<StatusCard>
               children: [
                 if (style.showIcon) ...[
                   Padding(
-                    padding: style.iconPadding ?? const EdgeInsets.only(right: 12),
+                    padding:
+                        style.iconPadding ?? const EdgeInsets.only(right: 12),
                     child: Icon(
                       _statusIcon,
                       color: _statusColor,
@@ -270,11 +267,12 @@ class _StatusCardState extends State<StatusCard>
                           child: Text(
                             widget.title!,
                             style: style.titleStyle?.copyWith(
-                              color: _statusColor,
-                            ) ?? TextStyle(
-                              fontWeight: FontWeight.bold,
-                              color: _statusColor,
-                            ),
+                                  color: _statusColor,
+                                ) ??
+                                TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  color: _statusColor,
+                                ),
                           ),
                         ),
                       Text(
@@ -293,7 +291,10 @@ class _StatusCardState extends State<StatusCard>
                   IconButton(
                     icon: const Icon(Icons.close, size: 20),
                     onPressed: _hide,
-                    color: Theme.of(context).colorScheme.onSurface.withOpacity(0.5),
+                    color: Theme.of(context)
+                        .colorScheme
+                        .onSurface
+                        .withOpacity(0.5),
                   ),
                 ],
               ],
@@ -301,7 +302,8 @@ class _StatusCardState extends State<StatusCard>
             if (widget.progress != null) ...[
               const SizedBox(height: 12),
               ClipRRect(
-                borderRadius: style.progressBorderRadius ?? BorderRadius.circular(4),
+                borderRadius:
+                    style.progressBorderRadius ?? BorderRadius.circular(4),
                 child: LinearProgressIndicator(
                   value: widget.progress,
                   backgroundColor: _statusColor.withOpacity(0.1),

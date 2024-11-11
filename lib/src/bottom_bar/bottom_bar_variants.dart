@@ -184,7 +184,8 @@ class AnimatedIconBottomBar extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           _buildAnimatedItem(0, FontAwesomeIcons.house, 'Home', theme),
-          _buildAnimatedItem(1, FontAwesomeIcons.magnifyingGlass, 'Search', theme),
+          _buildAnimatedItem(
+              1, FontAwesomeIcons.magnifyingGlass, 'Search', theme),
           _buildAnimatedItem(2, FontAwesomeIcons.bookmark, 'Saved', theme),
           _buildAnimatedItem(3, FontAwesomeIcons.user, 'Profile', theme),
         ],
