@@ -2,7 +2,7 @@
 
 A flexible and customizable UI builder package for Flutter applications part of [Flutter Pre-setup](https://github.com/vbalagovic/flutter-presetup/tree/main) and [Flutter Builder](https://flutter-builder.app/) low code generation and easy project setup app.
 
-Full examples and documentation on [UI kit website](https://flutter-builder-ui-kit.web.app/)
+Full examples and documentation on [UI kit website](https://widgets.flutter-builder.app/)
 
 ## Features
 
