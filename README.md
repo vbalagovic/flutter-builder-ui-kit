@@ -1,8 +1,10 @@
 # Flutter Builder UI Kit
 
-A flexible and customizable UI builder package for Flutter applications part of [Flutter Pre-setup](https://github.com/vbalagovic/flutter-presetup/tree/main) and [Flutter Builder](https://flutter-builder.app/) low code generation and easy project setup app.
+A flexible and customizable UI builder package for Flutter applications; part of [Flutter Pre-setup](https://github.com/vbalagovic/flutter-presetup/tree/main) and [Flutter Builder](https://flutter-builder.app/) low code generation and easy project setup app.
 
 Full examples and documentation on [UI kit website](https://widgets.flutter-builder.app/)
+
+Join the [Discord Server](https://discord.gg/y2T4m4t72W) for more information about UI Kit and Flutter builder itself.
 
 ## Features
 
@@ -18,7 +20,7 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-    flutter_builder_ui_kit: ^1.0.4
+    flutter_builder_ui_kit: ^1.0.5
 ```
 
 ## Usage

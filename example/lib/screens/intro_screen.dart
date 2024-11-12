@@ -44,6 +44,14 @@ class IntroScreen extends StatelessWidget {
 
               // CTA button with links
               _buildLinksSection(),
+
+              const Text(
+                'For more informations contact on email: info@devstarter.io'
+                'Or join our discord server: https://discord.gg/y2T4m4t72W',
+                textAlign: TextAlign.center,
+                style: TextStyle(fontSize: 16),
+              ),
+              const SizedBox(height: 24),
             ],
           ),
         ),
@@ -102,19 +110,25 @@ class IntroScreen extends StatelessWidget {
           label: const Text('Explore Flutter Builder'),
           onPressed: () async {
             const url = 'https://flutter-builder.app/';
-            if (await canLaunchUrl(Uri.parse(url))) {
-              await canLaunchUrl(Uri.parse(url));
+            if (!await launchUrl(
+              Uri.parse(url),
+              mode: LaunchMode.externalApplication,
+            )) {
+              throw Exception('Could not launch $url');
             }
           },
         ),
         const SizedBox(height: 8),
         ElevatedButton.icon(
           icon: const Icon(Icons.book),
-          label: const Text('View Documentation'),
+          label: const Text('Discord Server'),
           onPressed: () async {
-            const url = 'https://flutter-builder-ui-kit.web.app/';
-            if (await canLaunchUrl(Uri.parse(url))) {
-              await canLaunchUrl(Uri.parse(url));
+            const url = 'https://discord.gg/y2T4m4t72W';
+            if (!await launchUrl(
+              Uri.parse(url),
+              mode: LaunchMode.externalApplication,
+            )) {
+              throw Exception('Could not launch $url');
             }
           },
         ),
