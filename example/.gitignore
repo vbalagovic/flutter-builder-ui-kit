@@ -44,3 +44,4 @@ app.*.map.json
 .firebaserc
 firebase.json
 build
+.firebase/

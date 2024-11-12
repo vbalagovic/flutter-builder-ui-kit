@@ -18,7 +18,7 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-    flutter_builder_ui_kit: ^1.0.0
+    flutter_builder_ui_kit: ^1.0.2
 ```
 
 ## Usage
@@ -214,8 +214,8 @@ FloatingBottomBar(
 
 ## Documentation
 
-For detailed documentation, please visit our [UI kit website](https://flutter-builder-ui-kit.web.app/), or go to [Flutter Builder](https://flutter-builder.app/).
+For detailed documentation, please visit our [UI kit website](https://widgets.flutter-builder.app/), or go to [Flutter Builder](https://flutter-builder.app/).
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/vbalagovic/flutter-builder-ui-kit/blob/main/LICENSE) file for details.
