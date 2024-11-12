@@ -28,5 +28,7 @@ export 'src/overlays/styled_overlays.dart';
 export 'src/bottom_bar/bottom_bar_variants.dart';
 export 'src/dashboard_widgets/dashboard_widgets.dart';
 
+export 'src/splash_screens/splash_screen.dart';
+
 // Exporting themes
 export 'src/theme/theme.dart';

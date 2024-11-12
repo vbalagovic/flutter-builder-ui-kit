@@ -8,4 +8,8 @@ Formating update
 
 ## 1.0.2
 
-Formating update
+Updated links
+
+## 1.0.3
+
+Added new widgets

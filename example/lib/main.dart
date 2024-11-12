@@ -1,13 +1,16 @@
 // main.dart
 
+import 'package:example/screens/auth_screens_example.dart';
 import 'package:example/screens/bottom_bars_examples.dart';
 import 'package:example/screens/button_examples_screen.dart';
 import 'package:example/screens/cards_screen.dart';
+import 'package:example/screens/content_screen.dart';
 import 'package:example/screens/dashboard_widgets_screen.dart';
 import 'package:example/screens/inputs_screen.dart';
 import 'package:example/screens/intro_screen.dart';
 import 'package:example/screens/list_tiles_screen.dart';
 import 'package:example/screens/overlay_examples_screen.dart';
+import 'package:example/screens/splash_screen_examples.dart';
 import 'package:example/theme/theme_provider.dart';
 import 'package:flutter/material.dart';
 
@@ -85,10 +88,10 @@ class _ShowcaseHomeState extends State<ShowcaseHome> {
         title: 'Lists',
         icon: Icons.list_alt,
         screen: const ListsExamplesScreen()),
-    /* NavigationItem(
+    NavigationItem(
         title: 'Content',
         icon: Icons.content_copy,
-        screen: const ContentWidgetsExampleScreen()), */
+        screen: const ContentCardsExampleScreen()),
     NavigationItem(
         title: 'Overlays',
         icon: Icons.layers,
@@ -101,6 +104,14 @@ class _ShowcaseHomeState extends State<ShowcaseHome> {
         title: 'Dashboard Widgets',
         icon: Icons.dashboard_customize,
         screen: const DashboardWidgetsScreen()),
+    NavigationItem(
+        title: 'Splash Screens',
+        icon: Icons.swap_vertical_circle_sharp,
+        screen: const SplashScreenExamplesPage()),
+    NavigationItem(
+        title: 'Auth Screens',
+        icon: Icons.verified_user,
+        screen: const AuthScreensExampleScreen()),
   ];
 
   @override

@@ -18,7 +18,7 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-    flutter_builder_ui_kit: ^1.0.2
+    flutter_builder_ui_kit: ^1.0.3
 ```
 
 ## Usage
