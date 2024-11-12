@@ -13,3 +13,7 @@ Updated links
 ## 1.0.3
 
 Added new widgets
+
+## 1.0.4
+
+Updated documentation

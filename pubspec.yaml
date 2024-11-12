@@ -1,6 +1,6 @@
 name: flutter_builder_ui_kit
 description: "A flexible and customizable UI widgets package for Flutter applications"
-version: 1.0.3
+version: 1.0.4
 homepage: https://github.com/vbalagovic/flutter-builder-ui-kit
 
 environment:
