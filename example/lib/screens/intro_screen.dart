@@ -45,8 +45,14 @@ class IntroScreen extends StatelessWidget {
               // CTA button with links
               _buildLinksSection(),
 
+              const SizedBox(height: 24),
               const Text(
-                'For more informations contact on email: info@devstarter.io'
+                'For more informations contact on email: info@devstarter.io',
+                textAlign: TextAlign.center,
+                style: TextStyle(fontSize: 16),
+              ),
+              const SizedBox(height: 24),
+              const Text(
                 'Or join our discord server: https://discord.gg/y2T4m4t72W',
                 textAlign: TextAlign.center,
                 style: TextStyle(fontSize: 16),

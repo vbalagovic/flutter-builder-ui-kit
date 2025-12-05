@@ -22,3 +22,6 @@ Updated documentation
 
 Updated links
 
+## 1.0.6
+
+Updated package versions

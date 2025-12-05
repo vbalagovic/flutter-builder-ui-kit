@@ -31,7 +31,29 @@
 
   <title>Flutter Builder UI Kit</title>
   <link rel="manifest" href="manifest.json">
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
 
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyDQXkPCF9NFkhztrsBjVgIwKCJXJEINyOw",
+      authDomain: "flutterbuilder-2cc5a.firebaseapp.com",
+      projectId: "flutterbuilder-2cc5a",
+      storageBucket: "flutterbuilder-2cc5a.firebasestorage.app",
+      messagingSenderId: "515463050572",
+      appId: "1:515463050572:web:12ab4240ed18e7c040cbe9",
+      measurementId: "G-3934YTDYW7"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
 </head>
 <body>
   <script src="flutter_bootstrap.js" async></script>
